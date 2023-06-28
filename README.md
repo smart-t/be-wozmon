@@ -18,7 +18,7 @@ vasm6502_oldstyle -Fbin -dotdir -wdc02 ./be_wozmon_lcd.s
 
 ## Burning the Eprom
 
-For this I have used and XG ecu Pro USB mountable burner (http://www.xgecu.com)[Eprom programmer]. To burn I have used `minipro` (v0.6) like so;
+For this I have used and XG ecu Pro USB mountable burner [Eprom programmer](http://www.xgecu.com). To burn I have used `minipro` (v0.6) like so;
 
 ```
 minipro -p AT28C256 -w a.out -s
