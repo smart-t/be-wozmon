@@ -4,6 +4,8 @@ Ben Eater 6502 WozMon
 This project is based on the 6502 instruction videos from Ben Eater. Taking it one step at a time until a complete configuration which comes close to the Apple I computer. With this configuration you can burn an Eprom that holds the Steve Wozniak monitor program. A legendary tool that allows you to run programs on the BE 6502 computer. You interact with the machine using a serial terminal from any OS.
 This project also includes the name of the program and starting address of WozMon. This is why it won't start at `$FF00` but instead from `$C005`
 
+![Project on Breadboard](BE_WozMon_LCD.png)
+
 ## Compiling be_wozmon_lcd.s
 
 I have used `vasm v1.81`. If you stay close to this version you should survive.
